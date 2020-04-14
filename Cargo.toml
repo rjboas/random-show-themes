@@ -1,0 +1,22 @@
+[package]
+name = "random-show-themes"
+version = "0.1.0"
+authors = ["rjboas"]
+edition = "2018"
+description = "Outputs random themes (songs) from user-supplied data"
+readme = "README.md"
+repository = "https://github.com/rjboas/random-show-themes"
+license = "MIT OR Apache-2.0"
+keywords = ["soundtrack", "themes", "random", "show"]
+categories  = ["command-line-utilities"]
+
+[dependencies]
+clap = "2.33.0"
+serde = { version = "1", features = ["derive"] }
+serde_json = "*"
+rand = "0.7.3"
+term-table = "1.2.0"
+terminal_size = "0.1.10"
+stderrlog = "0.4.3"
+log = { version = "0.4.8", features = ["std"] }
+csv = "1.1.3"
