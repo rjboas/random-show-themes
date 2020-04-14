@@ -13,7 +13,7 @@ categories  = ["command-line-utilities"]
 [dependencies]
 clap = "2.33.0"
 serde = { version = "1", features = ["derive"] }
-serde_json = "*"
+serde_json = "1"
 rand = "0.7.3"
 term-table = "1.2.0"
 terminal_size = "0.1.10"
